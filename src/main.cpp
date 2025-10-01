@@ -10,7 +10,7 @@ using namespace GreetingUtils;
 
 int main()
 {
-    cout << "Please enter name: ";
+    cout << "Please enter name: " << endl;
     string name;
     std::getline(cin, name);
     string message = createMessage(name);
